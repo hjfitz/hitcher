@@ -1,14 +1,14 @@
-# 🎩 mitr
+#  🔗 Hitcher
 > Optional object chaining, but now
 
 ## Install
 ```zsh
-yarn add $libname
+yarn add hitcher
 ```
 
 ## Usage
 ```ts
-import chain from '$libname'
+import hitch from '$hitcher'
 
 const myObj = {
 	person: {
@@ -20,7 +20,7 @@ const myObj = {
 	}
 }
 
-const 
+const first = hitch(myObj, 'person', 'name', 'first')
 ```
 
 ## API
